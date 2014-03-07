@@ -3,7 +3,7 @@ require 'csv'
 require 'active_record'
 require 'mysql2'
 
-# STEP 2
+# STEP 2 - concatenate issues into one single issue, with chronological description
 ActiveRecord::Base.establish_connection(
      adapter:  'mysql2',
      host:     'localhost',
